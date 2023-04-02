@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+
+header {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #10777c;
+}
+
+header, footer {
+    background-color: #10777c;
+    color: white;
+    padding: 0.5em;
+}
+
+/* Div */
+
+div#fundo{
+   display: block;
+}
+
+div#fundo span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div#fundo span, footer span {
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* Nav */
+
+nav {
+    background-color: #5697D7;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+nav ul {
+    margin: 1em;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #cccccc;
+    color: #8EA3BF;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+section#historiadolocal{
+    background-color: #163F51;
+    height: 200%;
+    margin: 1px;
+    padding: 2px;
+    text-align: justify;
+    color: white;
+}
+
+section#pontosturisticos{
+    background-color: #163F51;
+    height: 200%;
+    margin: 1px;
+    padding: 2px;
+    text-align: justify;
+    color: white;
+}
+
+section#dicas{
+    background-color: #163F51;
+    height: 200%;
+    margin: 1px;
+    padding: 2px;
+    text-align: justify;
+    color: white;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 450px) {
+
+    div#fundo {
+        margin-top: 1em;
+        text-align: left;
+    }
+
+}
+

@@ -3,13 +3,12 @@ Proposta:
 
 Fazer uma página web simples;
 
-1º página de apresentação deve conter 3 botões suspensos com uma imagem de fundo
-   junto com a identidade visual e título;
+1º página de apresentação deve conter 3 botões suspensos com identidade visual e título;
 
-2º cada botão vai levar a uma seção diferente;
+2º cada botão vai está ancorado a uma seção diferente;
 
 3º o assunto será sobre o ponto turístico Lençóis Maranheses; 
 
-4º cada botão vai conter os seguintes temas, mini históris sobre o local, valor da hospedagem e principais pontos de visitação;
+4º cada botão vai conter os seguintes temas, história do local, pontos turísticos e dicas;
 
 5º por fim o footer deve possuir o meu nome.
